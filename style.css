@@ -14,12 +14,10 @@ body {
     color: white;
     font-size: 60px;
     font-weight: 700;
-    text-align: center;
 }
 
 .banner p {
     color: white;
-    text-align: center;
 }
 
 .link-button {
@@ -29,4 +27,62 @@ body {
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+half-width {
+    width: 50%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold-text {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.amount-text {
+    background-color: rgb(248, 242, 242);
+    color: gray;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 45px;
+    border-radius: 5px;
+}
+
+.special-amount-text {
+    background-color: rgb(240, 192, 192);
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 45px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+
+.plan-area {
+    padding: 100px 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.plan-area-food {
+    background-color: rgb(205, 231, 236);
+}
+
+.plan-area-shelter {
+    background-color: rgb(236, 229, 215);
+}
+
+.plan-area-education {
+    background-color: rgb(221, 178, 122);
 }
