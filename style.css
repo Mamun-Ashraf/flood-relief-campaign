@@ -1,0 +1,32 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.banner {
+    background-image: url(donation3-3.jpg);
+    opacity: 0.75;
+    height: 669px;
+    background-position: center;
+    text-align: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner p {
+    color: white;
+    text-align: center;
+}
+
+.link-button {
+    background-color: tomato;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
