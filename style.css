@@ -37,8 +37,12 @@ section {
     display: flex;
 }
 
-half-width {
+.half-width {
     width: 50%;
+}
+
+.half-width img {
+    width: 80%;
 }
 
 .center-text {
@@ -84,5 +88,39 @@ half-width {
 }
 
 .plan-area-education {
-    background-color: rgb(221, 178, 122);
+    background-color: bisque;
+}
+
+.update {
+    background-color: bisque;
+    padding: 100px 40px;
+}
+
+.email-text {
+    background-color: darkgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 150px;
+    border-radius: 5px;
+}
+
+.subscribe-text {
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer-style {
+    background-color: black;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+footer h1 {
+    color: tomato;
+}
+
+footer p {
+    color: white;
 }
