@@ -1,36 +1,53 @@
 body {
     font-family: 'Inter', sans-serif;
+    max-width: 90%;
+    height: 100%;
+    margin: auto;
 }
 
-.banner {
-    background-image: url(donation3-3.jpg);
-    opacity: 0.75;
-    height: 669px;
+.banner-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/donation3-3.jpg);
+    height: 700px;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+}
+
+.banner-content {
     text-align: center;
-}
-
-.banner h1 {
-    color: white;
-    font-size: 60px;
-    font-weight: 700;
-}
-
-.banner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
-.link-button {
-    background-color: tomato;
-    color: white;
-    padding: 10px 40px;
-    text-align: center;
+.banner-content h1 {
+    font-size: 4.5rem;
+    font: bold;
+}
+
+.banner-content p {
+    font-size: 20px;
+}
+
+.donate-btn {
+    background-color: orangered;
+    padding: 20px 30px;
     border-radius: 5px;
-    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }
 
 section {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+}
+
+.donate-amount {
+    width: 60%;
+    margin: auto;
 }
 
 .flexible-container {
@@ -56,10 +73,11 @@ section {
 
 .amount-text {
     background-color: rgb(248, 242, 242);
-    color: gray;
+    color: lightgray;
     font-size: 40px;
     font-weight: bold;
-    padding: 45px;
+    margin-right: 10px;
+    padding: 40px 30px;
     border-radius: 5px;
 }
 
@@ -68,15 +86,31 @@ section {
     color: tomato;
     font-size: 40px;
     font-weight: bold;
-    padding: 45px;
+    margin-right: 10px;
+    padding: 40px 30px;
     border: 2px solid tomato;
     border-radius: 5px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 3px solid lightgray;
+    text-align: center;
+    font-size: 20px;
 }
 
 .plan-area {
     padding: 100px 50px;
     margin-right: 20px;
     border-radius: 5px;
+}
+
+.plan-area-text {
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .plan-area-food {
@@ -98,10 +132,7 @@ section {
 
 .email-text {
     background-color: darkgray;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 150px;
+    padding: 10px 150px 10px 10px;
     border-radius: 5px;
 }
 
