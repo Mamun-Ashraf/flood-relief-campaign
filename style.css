@@ -1,7 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    max-width: 90%;
-    height: 100%;
+    width: 90%;
     margin: auto;
 }
 
@@ -35,7 +34,7 @@ body {
 
 .donate-btn {
     background-color: orangered;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 5px;
     color: white;
     font-size: 24px;
@@ -154,4 +153,116 @@ footer h1 {
 
 footer p {
     color: white;
+}
+
+@media screen and (max-width: 576px) {
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .donate-btn {
+        font-size: 20px;
+    }
+
+    .flexible-container {
+        display: block;
+    }
+
+    .amount-text {
+        margin-right: 0;
+    }
+
+    .special-amount-text {
+        margin-right: 0;
+    }
+
+    .bold-text {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    input[type=text] {
+        border-bottom: 2px solid lightgray;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .plan-area {
+        margin-bottom: 20px;
+    }
+
+    .half-width {
+        width: 100%;
+    }
+
+    .half-width img {
+        width: 100%;
+    }
+
+    .bold-text {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .email-text {
+        padding: 10px 50px 10px 10px;
+    }
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-content p {
+        font-size: 20px;
+    }
+
+    .donate-btn {
+        font-size: 20px;
+    }
+
+    .flexible-container {
+        display: block;
+    }
+
+    .amount-text {
+        margin-right: 0;
+    }
+
+    .special-amount-text {
+        margin-right: 0;
+    }
+
+    .plan-area {
+        margin-bottom: 20px;
+    }
+
+    .half-width {
+        width: 100%;
+    }
+
+    .half-width img {
+        width: 100%;
+    }
+
+    .bold-text {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    #hide {
+        display: none;
+    }
+
 }
