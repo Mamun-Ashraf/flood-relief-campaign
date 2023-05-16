@@ -156,6 +156,7 @@ footer p {
 }
 
 @media screen and (max-width: 576px) {
+
     .banner-content h1 {
         font-size: 2rem;
     }
@@ -219,7 +220,8 @@ footer p {
 
 }
 
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:992px) {
+
     .banner-content h1 {
         font-size: 2.5rem;
     }
